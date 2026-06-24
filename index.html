@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Fathir Al Bantani | Portofolio 3D</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- ===== STYLE.CSS ===== -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== PARTICLE CANVAS ===== -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <span class="logo-bracket">&lt;</span>Fathir<span class="logo-bracket">/&gt;</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#hero">Beranda</a></li>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#skills">Kemampuan</a></li>
+      <li><a href="#projects">Proyek</a></li>
+      <li><a href="#contact" class="nav-cta">Hubungi</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== MOBILE MENU ===== -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#hero" class="mobile-link">Beranda</a></li>
+      <li><a href="#about" class="mobile-link">Tentang</a></li>
+      <li><a href="#skills" class="mobile-link">Kemampuan</a></li>
+      <li><a href="#projects" class="mobile-link">Proyek</a></li>
+      <li><a href="#contact" class="mobile-link">Hubungi</a></li>
+    </ul>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="dot-pulse"></span>
+        <span>Mahasiswa Sistem Komputer</span>
+      </div>
+
+      <h1 class="hero-name">
+        Muhammad Fathir<br />
+        <span class="name-accent">Al Bantani</span>
+      </h1>
+
+      <p class="hero-tagline">
+        Mahasiswa aktif dengan semangat tinggi dalam teknologi embedded, IoT, dan pengembangan sistem. Siap belajar dan berkontribusi dalam tim profesional.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">Lihat Proyek</a>
+        <a href="#contact" class="btn-secondary">Hubungi Saya</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">2+</span>
+          <span class="stat-label">Proyek</span>
+        </div>
+        <span class="stat-divider"></span>
+        <div class="stat">
+          <span class="stat-num">3</span>
+          <span class="stat-label">Bahasa</span>
+        </div>
+        <span class="stat-divider"></span>
+        <div class="stat">
+          <span class="stat-num">2024</span>
+          <span class="stat-label">Mulai Kuliah</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="circuit-ring ring-1"></div>
+      <div class="circuit-ring ring-2"></div>
+      <div class="circuit-ring ring-3"></div>
+
+      <!-- ===== FOTO PROFIL ===== -->
+      <div class="avatar-frame">
+        <div class="avatar-inner">
+          <img src="fthr.jpeg" alt="Muhammad Fathir Al Bantani" class="avatar-photo" />
+        </div>
+      </div>
+
+      <div class="float-badge badge-1">Arduino</div>
+      <div class="float-badge badge-2">C/C++</div>
+      <div class="float-badge badge-3">IoT</div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">/ tentang</span>
+        <h2 class="section-title">Saya</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="about-lead">
+            Mahasiswa Sistem Komputer di Universitas Pamulang Serang dengan minat besar pada teknologi embedded dan IoT.
+          </p>
+          <p>
+            Saya memiliki kemampuan komunikasi yang baik, mampu bekerja secara individu maupun tim, disiplin, dan cepat beradaptasi dengan lingkungan kerja baru. Meskipun kadang suka lupa sedikit — namanya juga manusia — saya selalu berusaha untuk terus belajar dan berkembang.
+          </p>
+          <p>
+            Saat ini saya fokus mendalami pemrograman C/C++ untuk mikrokontroler dan merancang sistem elektronik sederhana berbasis Arduino.
+          </p>
+
+          <div class="about-info-grid">
+            <div class="info-item">
+              <span class="info-label">Nama</span>
+              <span class="info-value">Muhammad Fathir Al Bantani</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Tempat, Tgl Lahir</span>
+              <span class="info-value">Serang, 22 Jan 2006</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Pendidikan</span>
+              <span class="info-value">S1 Sistem Komputer</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Universitas</span>
+              <span class="info-value">Univ. Pamulang Serang</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <span class="t-dot red"></span>
+              <span class="t-dot yellow"></span>
+              <span class="t-dot green"></span>
+              <span class="t-title">~/fathir@profile</span>
+            </div>
+            <div class="terminal-body">
+              <pre>
+<span class="t-bracket">├──</span> <span class="t-key">nama</span>      : Muhammad Fathir Al Bantani
+<span class="t-bracket">│</span>
+<span class="t-bracket">├──</span> <span class="t-key">status</span>    : Mahasiswa <span class="t-str">"Sistem Komputer"</span>
+<span class="t-bracket">│</span>
+<span class="t-bracket">├──</span> <span class="t-key">skill</span>     : Arduino, C/C++, IoT
+<span class="t-bracket">│</span>
+<span class="t-bracket">├──</span> <span class="t-key">motto</span>     : <span class="t-str">"Terus belajar & berkembang"</span>
+<span class="t-bracket">│</span>
+<span class="t-bracket">  █</span><span class="blink">█</span>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">/ kemampuan</span>
+        <h2 class="section-title">Keahlian & Teknologi</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div>
+          <div class="skill-category">
+            <h3 class="category-title">Hard Skills</h3>
+            <div class="skill-bars">
+              <div class="skill-bar-item">
+                <div class="skill-bar-label"><span>Arduino / Embedded</span><span class="skill-pct">80%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-target="80%"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-label"><span>Pemrograman C/C++</span><span class="skill-pct">70%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-target="70%"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-label"><span>Microsoft Office</span><span class="skill-pct">85%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-target="85%"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-label"><span>Simulasi (Wokwi)</span><span class="skill-pct">75%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-target="75%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category" style="margin-top: 2.5rem;">
+            <h3 class="category-title">Tech Stack</h3>
+            <div class="tech-tags">
+              <span class="tech-tag featured">Arduino Uno</span>
+              <span class="tech-tag featured">C++</span>
+              <span class="tech-tag">Wokwi</span>
+              <span class="tech-tag">Sensor LDR</span>
+              <span class="tech-tag">LED</span>
+              <span class="tech-tag">IoT</span>
+              <span class="tech-tag">Embedded</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="skill-category">
+            <h3 class="category-title">Soft Skills</h3>
+            <div class="soft-skills-grid">
+              <div class="soft-skill-card"><span>Komunikasi</span></div>
+              <div class="soft-skill-card"><span>Individual</span></div>
+              <div class="soft-skill-card"><span>Manajemen Waktu</span></div>
+              <div class="soft-skill-card"><span>Adaptasi Cepat</span></div>
+              <div class="soft-skill-card"><span>Disiplin</span></div>
+              <div class="soft-skill-card"><span>Teliti</span></div>
+            </div>
+          </div>
+
+          <div class="skill-category" style="margin-top: 2.5rem;">
+            <h3 class="category-title">Bahasa</h3>
+            <div class="lang-grid" style="grid-template-columns: 1fr 1fr 1fr; gap: 1rem;">
+              <div class="lang-card" style="padding: 1rem 0.75rem;">
+                <h3>Indonesia</h3>
+                <p style="font-size: 0.75rem; color: var(--blue-core);">Native</p>
+                <div class="lang-dots"><span class="ldot active"></span><span class="ldot active"></span><span class="ldot active"></span></div>
+              </div>
+              <div class="lang-card" style="padding: 1rem 0.75rem;">
+                <h3>Inggris</h3>
+                <p style="font-size: 0.75rem; color: var(--text-muted);">Intermediate</p>
+                <div class="lang-dots"><span class="ldot active"></span><span class="ldot active"></span><span class="ldot"></span></div>
+              </div>
+              <div class="lang-card" style="padding: 1rem 0.75rem;">
+                <h3>Jawa & Sunda</h3>
+                <p style="font-size: 0.75rem; color: var(--text-muted);">Daerah</p>
+                <div class="lang-dots"><span class="ldot active"></span><span class="ldot active"></span><span class="ldot"></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">/ proyek</span>
+        <h2 class="section-title">Pengalaman Proyek</h2>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-glow"></div>
+          <div class="project-num">01</div>
+          <div class="project-icon-wrap">
+            <div class="project-icon"></div>
+          </div>
+          <h3 class="project-title">Sistem Kontrol Arduino</h3>
+          <p class="project-desc">Merancang dan menguji rangkaian elektronik menggunakan Arduino dengan sensor LDR dan LED.</p>
+          <ul class="project-points">
+            <li>Merancang rangkaian sensor LDR & LED</li>
+            <li>Melakukan pengujian sistem</li>
+            <li>Menyusun dokumentasi proyek</li>
+          </ul>
+          <div class="project-tags">
+            <span>Arduino</span>
+            <span>LDR</span>
+            <span>LED</span>
+            <span>Embedded</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-glow"></div>
+          <div class="project-num">02</div>
+          <div class="project-icon-wrap">
+            <div class="project-icon"></div>
+          </div>
+          <h3 class="project-title">Simulasi Arduino (Wokwi)</h3>
+          <p class="project-desc">Membangun simulasi rangkaian elektronik dan pemrograman C/C++ untuk mengendalikan sensor & aktuator.</p>
+          <ul class="project-points">
+            <li>Simulasi rangkaian di Wokwi</li>
+            <li>Menulis program C/C++</li>
+            <li>Mengendalikan sensor & aktuator</li>
+          </ul>
+          <div class="project-tags">
+            <span>Wokwi</span>
+            <span>C++</span>
+            <span>Simulasi</span>
+            <span>IoT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TIMELINE (Pendidikan) ===== -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">/ pendidikan</span>
+        <h2 class="section-title">Riwayat Pendidikan</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-item active reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <span class="tl-badge current">Saat Ini</span>
+              <span class="tl-year">2024 — Sekarang</span>
+            </div>
+            <h3 class="tl-title">Universitas Pamulang Serang</h3>
+            <div class="tl-degree">S1 Sistem Komputer</div>
+            <p class="tl-desc">Mahasiswa aktif semester 4 dengan fokus pada sistem embedded, IoT, dan pemrograman mikrokontroler.</p>
+            <div class="tl-tags">
+              <span>Embedded</span>
+              <span>IoT</span>
+              <span>Arduino</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <span class="tl-badge done">Lulus</span>
+              <span class="tl-year">2021 — 2024</span>
+            </div>
+            <h3 class="tl-title">SMAN 4 Kota Serang</h3>
+            <div class="tl-degree">Jurusan IPS</div>
+            <p class="tl-desc">Mengembangkan kemampuan analisis, komunikasi, dan manajemen waktu selama masa sekolah.</p>
+            <div class="tl-tags">
+              <span>IPS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">/ kontak</span>
+        <h2 class="section-title">Hubungi Saya</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="reveal">
+          <p class="contact-lead">
+            Tertarik untuk berkolaborasi atau memiliki pertanyaan? Jangan ragu untuk menghubungi saya melalui salah satu kanal di bawah ini.
+          </p>
+          <div class="contact-items">
+            <a href="mailto:fathiralbantani22@gmail.com" class="contact-item">
+              <div>
+                <span class="contact-item-label">Email</span>
+                <span class="contact-item-value">fathiralbantani22@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:08989284036" class="contact-item">
+              <div>
+                <span class="contact-item-label">Telepon</span>
+                <span class="contact-item-value">0898-9284-036</span>
+              </div>
+            </a>
+            <a href="#" class="contact-item">
+              <div>
+                <span class="contact-item-label">Alamat</span>
+                <span class="contact-item-value">Komp Banten Indah Permai</span>
+              </div>
+            </a>
+            <div class="contact-item" style="border: none; background: transparent; padding-left: 0;">
+              <div>
+                <span class="contact-item-label">Tempat, Tanggal Lahir</span>
+                <span class="contact-item-value">Serang, 22 Januari 2006</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="contact-card">
+            <h3>Kirim Pesan</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Nama</label>
+                <input type="text" id="name" placeholder="Nama lengkap" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="email@domain.com" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Pesan</label>
+                <textarea id="message" rows="4" placeholder="Tulis pesan Anda..." required></textarea>
+              </div>
+              <button type="submit" class="btn-primary full-width">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-logo">
+      <span class="logo-bracket">&lt;</span>Fathir<span class="logo-bracket">/&gt;</span>
+    </div>
+    <div class="footer-text">
+      Muhammad Fathir Al Bantani &bull; S1 Sistem Komputer
+    </div>
+    <div class="footer-sub">
+      2026 &bull; Dibangun dengan kopi
+    </div>
+  </footer>
+
+  <!-- ===== SCRIPT.JS ===== -->
+  <script src="script.js"></script>
+</body>
+</html>
